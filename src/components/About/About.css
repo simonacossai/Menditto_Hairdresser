@@ -1,0 +1,104 @@
+#about{
+    padding: 9vh 0 1vh 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+	background: rgb(250, 250, 250); 
+	height: 90vh;
+}
+.about-icon:hover{
+     color: #000;
+     transition-duration: 400ms;
+}
+.hairClip{
+	width: 400px;
+	height: 100%;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+	width: 450px;
+	height: 600px;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align:right;
+}
+.about-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+    color:#000 !important;
+	font-weight: lighter!important;
+	border-right: 2px solid black;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+.about-text h1{
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Playfair Display SC', serif;
+
+    
+}
+.about-text h2{
+    margin-bottom: 10px;
+    color:#000;
+   
+    font-weight: lighter!important;
+}
+
+/* about end*/
+
+.about-p{
+    color:#000;
+    font-weight: 300;
+}
+
+
+
+@media only screen and (max-width: 770px){
+
+ #about{
+	 margin-top: 2rem;
+	 padding: 0 20px 0 20px;
+	 height: 100%;
+ }
+.about-left-col,
+.about-right-col{
+    flex-basis: 100%;
+}
+
+.about-text{
+    margin: 50px 0 10px;
+	display:block;
+	border-right: 1px solid black;
+}
+.about-text h1{
+    font-size: 50px!important;
+    margin-right:10px;
+}
+.hairClip{
+	display:none;
+}
+
+
+.about-text p{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.about-left-col img{
+	width: 100%;
+    height: 480px;
+    margin-top: 50px;
+}
+.about-text h2{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.about-text span{
+    margin-right: 10px;
+}
+}

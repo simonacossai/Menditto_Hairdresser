@@ -1,0 +1,220 @@
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Tinos&display=swap";
+
+/*services start*/
+#services{
+	text-align:center;
+  display:block; 
+  height: fit-content;
+  width: 90%;
+  background: rgb(250, 250, 250); 
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 0!important;
+  padding-bottom: 0!important;
+
+	}
+
+
+#services h1{
+	margin: 0em 0 30px 0;
+    color:#161616;
+    font-size: 3em;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.services {
+    padding-bottom: 0rem!important;
+	margin-top: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media (min-width: 45em) {
+	.services {
+		flex-wrap: nowrap;
+    }
+    
+
+}
+
+.card {
+    flex-direction: row;
+	position: relative;
+	width: 250px;
+	height: 350px;
+	margin: 4px;
+	background: #A63D40;
+	text-align:center;
+	justify-content: center;
+	align-items: center;	
+	border-radius: 5px;
+	box-shadow: 3px 25px 42px rgba(0,0,0,0.6);
+}
+
+
+
+.card__image img {
+	text-align:center;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+	width: 140px;
+	height: 140px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	
+}
+
+.card_heading {
+	margin-top:25px;
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	color:#161616;
+    font-weight: lighter;
+}
+.card_heading h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.card_heading p{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 19px;
+}
+.card.is-out {
+	transform: rotateX(0) rotateY(0) !important;
+	transition-duration: 1s;
+}
+
+#card-1 {
+	background-color: #fcf8f6; 
+	border: 1px double black;
+	border-style: double;
+}
+
+#card-2 {
+	background-color: #fcf8f6; 
+}
+
+#card-3 {
+	background-color: #fcf8f6; 
+}
+
+#card-4 {
+	background-color: #fcf8f6; 
+}  
+/*services end*/
+@media(max-width: 768px){
+    .row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ 
+}
+
+
+
+
+header {
+	width: 95%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: end;
+			justify-content: flex-end;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+			flex-flow: row wrap;
+  }
+  header ul {
+	padding: 1.2em 0 0.5em;
+  }
+  header span {
+	padding: 0 0 0 0.5em;
+  }
+ 
+  
+ 
+  .product, .product--blue{
+	box-shadow: 1px 5px 15px #CCC;
+	width: 13em;
+	height: auto;
+	border-radius: 3px;
+	padding: 1em;
+	margin: 1em;
+	overflow: hidden;
+	position: relative;
+	-webkit-box-flex: 1;
+			flex: auto;
+			border-radius: 10px;
+  }
+  .product--blue {
+	background: linear-gradient(-40deg, #ffd3add8 50%, rgba(255, 255, 255, 0.6) 50%);
+  }
+  
+  
+  
+
+  .product img, .product--blue img, .product--orange img, .product--red img, .product--green img, .product--yellow img, .product--pink img {
+	max-width: 100%;
+	height: auto !important;
+	text-align: center;
+  }
+  .product_inner {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+			align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+			flex-flow: column wrap;
+  }
+  .product_inner p {
+	color: rgba(255, 255, 255, 0.9);
+	padding: 0!important;
+	margin: 0!important;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	
+  }
+ 
+  .product_overlay {
+	background: rgba(255, 255, 255, 0.9);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-500px);
+			transform: translateY(-500px);
+	opacity: 0;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+			flex-flow: column wrap;
+	-webkit-box-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+			align-items: center;
+  }
+  .product_overlay h2 {
+	color: rgba(43, 45, 66, 0.7);
+	font-size: 1.2em;
+	margin: 1em 0;
+  }
+  .product_overlay i {
+	color: rgba(43, 45, 66, 0.7);
+	font-size: 1.5em;
+  }
+  

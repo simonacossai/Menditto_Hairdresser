@@ -1,0 +1,183 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap";
+
+:root{
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+ 
+}
+
+footer.footer{
+    margin-top: 5rem;
+    height:fit-content;
+    position: relative;
+    text-align:center;
+    z-index: 500;
+    color:#000!important;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+footer.footer .container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color:#000!important;
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2{
+    color:#000!important;
+   
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+footer.footer .container h3{
+    color:#000!important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400!important;
+
+}
+
+
+
+footer.footer .newsletter .form-element{
+    background: black;
+    display: inline-block;
+}
+
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .4rem .4rem;
+}
+
+footer.footer .follow div i{
+    color: #000;
+    padding: 0 .4rem;
+    font-size: 25px;
+}
+
+footer.footer .follow div i:hover{
+    color:#b28957;
+    transition: .3s all ease;
+}
+
+
+footer.footer .move-up span{
+    color:#b28957;
+    transition: .3s all ease;
+}
+
+footer.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+.call:hover{
+text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1130px){
+
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 750px){
+    .quote {
+        padding-top: 5rem;
+        margin-top: 2em;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+        font-size:1.8em;
+    }
+    .quote i{
+        font-size:1.8em;
+    }
+    .quote h1{
+        color: #000;
+        font-weight:500 ;
+        font-size: 1.8em;
+    }
+    .move-up{
+     display:none;
+    }
+     #testimonials{
+        text-align: center;
+        background-color: #161616;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    
+    h2{
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    
+    .testimonial-image{
+        width: 12%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    .carousel-item{
+       
+       padding: 7% 15%;
+    }
+    
+    .carousel-item i{
+        color: #b8864a;
+    }
+  
+    footer.footer .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .follow{
+        text-align: center;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 520px){
+   
+  
+    footer.footer .container > div{
+        padding:  1rem .9rem !important;
+    }
+  
+    footer .rights{
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+   
+    .footer{
+        text-align:center;
+    }
+    .clip{
+        width: 270px!important;
+    }
+  }
+
+
+ 

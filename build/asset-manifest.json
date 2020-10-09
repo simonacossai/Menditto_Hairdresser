@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/MendittoHairdresser/static/css/main.d77c40a2.chunk.css",
+    "main.js": "/MendittoHairdresser/static/js/main.7d2df4f5.chunk.js",
+    "main.js.map": "/MendittoHairdresser/static/js/main.7d2df4f5.chunk.js.map",
+    "runtime-main.js": "/MendittoHairdresser/static/js/runtime-main.0c43306e.js",
+    "runtime-main.js.map": "/MendittoHairdresser/static/js/runtime-main.0c43306e.js.map",
+    "static/js/2.474f1e13.chunk.js": "/MendittoHairdresser/static/js/2.474f1e13.chunk.js",
+    "static/js/2.474f1e13.chunk.js.map": "/MendittoHairdresser/static/js/2.474f1e13.chunk.js.map",
+    "index.html": "/MendittoHairdresser/index.html",
+    "precache-manifest.4a64e3df7494e3eb2083f06da2eafd2d.js": "/MendittoHairdresser/precache-manifest.4a64e3df7494e3eb2083f06da2eafd2d.js",
+    "service-worker.js": "/MendittoHairdresser/service-worker.js",
+    "static/css/main.d77c40a2.chunk.css.map": "/MendittoHairdresser/static/css/main.d77c40a2.chunk.css.map",
+    "static/js/2.474f1e13.chunk.js.LICENSE.txt": "/MendittoHairdresser/static/js/2.474f1e13.chunk.js.LICENSE.txt",
+    "static/media/about.jpg": "/MendittoHairdresser/static/media/about.2f0682a1.jpg",
+    "static/media/back11.jpg": "/MendittoHairdresser/static/media/back11.83851826.jpg",
+    "static/media/back6.jpg": "/MendittoHairdresser/static/media/back6.e8fe5012.jpg",
+    "static/media/forcina.png": "/MendittoHairdresser/static/media/forcina.26d22d53.png",
+    "static/media/gallery1.jpg": "/MendittoHairdresser/static/media/gallery1.701ade91.jpg",
+    "static/media/gallery2.jpg": "/MendittoHairdresser/static/media/gallery2.e56ccb91.jpg",
+    "static/media/gallery3.jpg": "/MendittoHairdresser/static/media/gallery3.6a5b36c6.jpg",
+    "static/media/gallery4.jpg": "/MendittoHairdresser/static/media/gallery4.cdd89966.jpg",
+    "static/media/icon.png": "/MendittoHairdresser/static/media/icon.2dc713a5.png",
+    "static/media/logo.svg": "/MendittoHairdresser/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c43306e.js",
+    "static/js/2.474f1e13.chunk.js",
+    "static/css/main.d77c40a2.chunk.css",
+    "static/js/main.7d2df4f5.chunk.js"
+  ]
+}
