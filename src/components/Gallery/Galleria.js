@@ -17,15 +17,19 @@ function Galleria() {
     var GalleryImg9 = require('./../../img/gallery7.jpg');
     var GalleryImg10 = require('./../../img/gallery8.jpg');
     var GalleryImg11 = require('./../../img/gallery9.jpg');
-  
+    var FooterImg2 = require ('./../../img/forcina.png');
+
 
     return (
         <div >
+                  <img src={FooterImg2} style={{width: "400px", marginTop:"-40px"}} className="clip"></img>
+
         <div className="container text-center" id="gallery" style={{marginTop: '6em'}}>
           <h1 style={{fontWeight: 500, fontSize: '2.8em'}}>Galleria</h1>
         </div>
       
 <Container>
+  
 <SRLWrapper>     
 <div >
     <Row className="gallery-row">

@@ -6,8 +6,8 @@ import {FaPhoneSquareAlt} from 'react-icons/fa';
 
 
 function Footer() {
-  var FooterImg = require('./../../img/gallery4.jpg');
-  var FooterImg8 = require('./../../img/gallery5.jpg');
+  var FooterImg = require('./../../img/footer.jpg');
+  var FooterImg8 = require('./../../img/colore.jpg');
   var FooterImg7 = require('./../../img/gallery8.jpg');
   var FooterImg3 = require('./../../img/gallery7.jpg');
   var FooterImg4 = require('./../../img/gallery9.jpg');
@@ -19,7 +19,6 @@ function Footer() {
     return (
       
         <footer className="footer" style={{paddingBottom: '15px'}}>
-        <img src={FooterImg2} style={{width: "400px"}} className="clip"></img>
         <hr></hr>
         <div className="container">
           <div className="about-us">
