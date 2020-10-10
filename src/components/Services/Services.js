@@ -6,6 +6,12 @@ function Services() {
    
     var brush = require('./../../img/brush.png');
     var clip = require('./../../img/clip.png');
+    var GalleryImg4 = require('./../../img/piega.jpg');
+    var GalleryImg2 = require('./../../img/gallery2.jpg');
+    var GalleryImg5 = require('./../../img/colore.jpg');
+    var GalleryImg8 = require('./../../img/trattamenti.jpg');
+
+
     return (
    
 
@@ -14,52 +20,21 @@ function Services() {
         <div className="services">
           <div className="row center">
           <div className="product--blue">
-        <div className="product_inner">
-        <div className="card__image" style={{marginBottom: '10px'}}>
-                <img src={clip} alt="sedia da barbiere" />
-              </div>
+        
+                <img src={GalleryImg2} alt="sedia da barbiere"  className="serviceImage"/>
               <p style={{color: "black", fontSize: "25px", fontFamily: 'Playfair Display SC'}}>Taglio</p>
-          <p style={{color: "black", fontSize:"19px", fontWeight:"lighter"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-       incididunt </p>
-        </div>
-        <div className="product_overlay">
-        </div>
       </div>
-      <div className="product--blue">
-        <div className="product_inner">
-        <div className="card__image" style={{marginBottom: '10px'}}>
-                <img src={clip} alt="sedia da barbiere" />
-              </div>
+      <div className="product--blue">  
+                <img src={GalleryImg5} alt="sedia da barbiere" className="serviceImage" />
               <p style={{color: "black", fontSize: "25px", fontFamily: 'Playfair Display SC'}}>Colore</p>
-          <p style={{color: "black", fontSize:"19px", fontWeight:"lighter"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-       incididunt </p>
-        </div>
-        <div className="product_overlay">
-        </div>
       </div>
       <div className="product--blue">
-        <div className="product_inner">
-        <div className="card__image" style={{marginBottom: '10px'}}>
-                <img src={clip} alt="sedia da barbiere" />
-              </div>
+                <img src={GalleryImg4} alt="sedia da barbiere" className="serviceImage" />        
               <p style={{color: "black", fontSize: "25px", fontFamily: 'Playfair Display SC'}}>Piega</p>
-          <p style={{color: "black", fontSize:"19px", fontWeight:"lighter"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-       incididunt </p>
-        </div>
-        <div className="product_overlay">
-        </div>
       </div>
       <div className="product--blue">
-        <div className="product_inner">
-        <div className="card__image" style={{marginBottom: '10px'}}>
-                <img src={clip} alt="sedia da barbiere" />
-              </div>
-              <p style={{color: "black", fontSize: "25px", fontFamily: 'Playfair Display SC'}}>Trattamenti</p>
-          <p style={{color: "black", fontSize:"19px", fontWeight:"lighter"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-       incididunt </p>
-        </div>
-        <div className="product_overlay">
-        </div>
+                <img src={GalleryImg8} alt="sedia da barbiere" className="serviceImage"/>
+              <p style={{color: "black", fontSize: "25px", fontFamily: 'Playfair Display SC'}}>Trattamenti</p>    
       </div>
           </div>
         </div>

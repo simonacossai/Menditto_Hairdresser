@@ -3,7 +3,7 @@ import './ListinoPrezzi.css';
 
 var brush = require('./../../img/brush.png');
 var scissors = require('./../../img/scissors.png');
-var brush = require('./../../img/brush.png');
+var bottle = require('./../../img/bottle.png');
 
 
 function ListinoPrezzi() {
@@ -73,7 +73,7 @@ H42.401L43.415,98.342z" fill="#FFFFFF" opacity="0.7" />
               <path className="deco-layer deco-layer--4" d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428
 c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z" fill="#FFFFFF" />
             </svg>
-            <div className="pricing-price"><img src={brush} style={{height: "100px", width: "100px"}}></img>
+            <div className="pricing-price"><img src={bottle} style={{height: "100px", width: "100px"}}></img>
             </div>
             <h3 className="pricing-title">Trattamenti</h3>
           </div>
